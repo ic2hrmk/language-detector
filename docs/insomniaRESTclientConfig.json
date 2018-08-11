@@ -1,0 +1,64 @@
+{
+  "_type": "export",
+  "__export_format": 2,
+  "__export_date": "2018-08-11T20:34:52.557Z",
+  "__export_source": "insomnia.desktop.app:v3.6.8",
+  "resources": [
+    {
+      "modified": 1534016189699,
+      "created": 1534016143254,
+      "parentId": null,
+      "name": "Language detector",
+      "_id": "wrk_506a3f0d4b3144579020f74ef20402ec",
+      "_type": "workspace"
+    },
+    {
+      "modified": 1534016146525,
+      "created": 1534016146525,
+      "parentId": "wrk_506a3f0d4b3144579020f74ef20402ec",
+      "name": "Base Environment",
+      "data": {},
+      "_id": "env_e1f13f1100c040b4acd714d6b8d73d61",
+      "_type": "environment"
+    },
+    {
+      "modified": 1534019470266,
+      "created": 1534016230370,
+      "parentId": "wrk_506a3f0d4b3144579020f74ef20402ec",
+      "name": "Default Jar",
+      "cookies": [],
+      "_id": "jar_251efeda6dea485bbd05eaf321b0b0b2",
+      "_type": "cookie_jar"
+    },
+    {
+      "modified": 1534019469479,
+      "created": 1534016206473,
+      "parentId": "wrk_506a3f0d4b3144579020f74ef20402ec",
+      "url": "{{base_url}}/which-language",
+      "name": "Whitch language",
+      "method": "GET",
+      "body": "",
+      "parameters": [
+        {
+          "name": "phrase",
+          "value": "мамам"
+        }
+      ],
+      "headers": [],
+      "authentication": {},
+      "_id": "req_b954040773ec45789aef7cc880be90be",
+      "_type": "request"
+    },
+    {
+      "modified": 1534016185071,
+      "created": 1534016147999,
+      "parentId": "env_e1f13f1100c040b4acd714d6b8d73d61",
+      "name": "Local",
+      "data": {
+        "base_url": "http://localhost:8080"
+      },
+      "_id": "env_52dd979400fb4efe9dac83d41022be4d",
+      "_type": "environment"
+    }
+  ]
+}
